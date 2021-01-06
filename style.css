@@ -1,3 +1,5 @@
+* {box-sizing: border-box}
+
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -72,7 +74,7 @@ h3{
 header{
     padding: 20px 0;
     overflow: hidden;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -104,7 +106,7 @@ header{
 /***intro section***/
 
 #intro{
-    padding: 20px 0;
+    padding: 50px 0 80px;
 }
 
 #intro .half-width img{
@@ -114,7 +116,8 @@ header{
 
 /*** about section ***/
 #about{
-   padding: 50px 0; 
+   padding: 50px 0;
+   background: #F8F9FC; 
 }
 
 .text-part{
@@ -125,6 +128,48 @@ header{
 .lni-download{
     margin-right: 10px;
 }
+
+/*** skills section ***/
+#skills{
+    padding:80px 0 100px;
+}
+
+#skills h2{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.skills-container p{
+    margin:10px 0;
+}
+
+.skills-bar-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin-bottom:30px;
+  }
+  
+  .skills {
+    text-align: right;
+    font-size:14px;
+    color: white;
+    border-radius: 20px;
+    padding-right: 15px;
+  }
+  
+  .html {
+      width: 90%; background-color: #4176FA;
+    }
+  .css {
+      width: 80%; background-color: #4F47CE;
+    }
+  .js {
+      width: 65%; background-color: #FBCF62;
+    }
+  .react {
+      width: 60%; background-color:#FF8367;
+    }
 
 /*** portfolio section ***/
 
